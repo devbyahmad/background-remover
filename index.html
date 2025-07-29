@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Remove Background</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <h1>Remove Background</h1>
+
+  <div class="main">
+    <div class="style1">
+      <div class="image">
+        <div class="image1"><img src="./withbg.jpeg" alt="Example with BG" id="withbg" /></div>
+        <div class="image2"><img src="./withoutbg.png" alt="Example without BG" id="withoutbg" /></div>
+      </div>
+      <div class="text">Free Background Removing Site</div>
+    </div>
+
+    <div class="style2">
+      <div class="upload-image">
+        <div class="inner-upload-image">
+          <img src="" alt="" id="input-image" />
+          <input type="file" hidden id="filepicker" />
+          <i class="fa-solid fa-plus upload-icon"></i>
+          <span class="upload-span">Upload Image</span>
+        </div>
+        <button id="upload-btn">Remove</button>
+        <a id="download-btn" href="#" download="no-bg.png" style="display: none;">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
